@@ -7,11 +7,14 @@ function getAdvice() {
     fetch('https://api.adviceslip.com/advice')
     .then(response => response.json())
     .then(data => {
-        adviceContainer.innerText = data.slip.advice
+        adviceContainer.innerHTML = data.slip.advice
+        adviceID.innerHTML = data.slip.id
     })
     .catch(error => {
         console.error(error)
     })
 }
+
+window.addEventListener('load', getAdvice)
 
 adviceButton.addEventListener('click', getAdvice)
