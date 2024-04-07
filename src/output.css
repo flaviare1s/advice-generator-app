@@ -566,8 +566,116 @@ video {
   bottom: 5px;
 }
 
+.right-1\/2 {
+  right: 50%;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.bottom-\[\] {
+  bottom: ;
+}
+
+.bottom-\[-\] {
+  bottom: -;
+}
+
+.bottom-\[-30\%\] {
+  bottom: -30%;
+}
+
+.bottom-\[30\%\] {
+  bottom: 30%;
+}
+
+.bottom-\[20\%\] {
+  bottom: 20%;
+}
+
+.bottom-\[22\%\] {
+  bottom: 22%;
+}
+
+.bottom-\[\%\] {
+  bottom: %;
+}
+
+.bottom-\[18\%\] {
+  bottom: 18%;
+}
+
+.bottom-\[19\%\] {
+  bottom: 19%;
+}
+
+.bottom-\[20px\] {
+  bottom: 20px;
+}
+
+.bottom-\[60px\] {
+  bottom: 60px;
+}
+
+.bottom-\[100px\] {
+  bottom: 100px;
+}
+
+.bottom-\[140px\] {
+  bottom: 140px;
+}
+
+.bottom-\[120px\] {
+  bottom: 120px;
+}
+
+.bottom-\[18\] {
+  bottom: 18;
+}
+
+.bottom-\[29\%\] {
+  bottom: 29%;
+}
+
+.bottom-\[25\%\] {
+  bottom: 25%;
+}
+
+.bottom-\[24\%\] {
+  bottom: 24%;
+}
+
+.bottom-\[2\] {
+  bottom: 2;
+}
+
+.bottom-\[2\%\] {
+  bottom: 2%;
+}
+
+.bottom-\[10\%\] {
+  bottom: 10%;
+}
+
+.bottom-\[-10\%\] {
+  bottom: -10%;
+}
+
 .m-auto {
   margin: auto;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .flex {
@@ -596,6 +704,21 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.translate-x-\[\] {
+  --tw-translate-x: ;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-\[50\%\] {
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-\[-50\%\] {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col {
@@ -707,6 +830,30 @@ video {
 }
 
 @media (min-width: 550px) {
+  .sm\:bottom-\[\] {
+    bottom: ;
+  }
+
+  .sm\:bottom-\[22\%\] {
+    bottom: 22%;
+  }
+
+  .sm\:bottom-\[25\%\] {
+    bottom: 25%;
+  }
+
+  .sm\:bottom-\[20\%\] {
+    bottom: 20%;
+  }
+
+  .sm\:bottom-\[24\%\] {
+    bottom: 24%;
+  }
+
+  .sm\:bottom-\[-10\%\] {
+    bottom: -10%;
+  }
+
   .sm\:block {
     display: block;
   }
