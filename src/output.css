@@ -558,6 +558,10 @@ video {
   text-align: center;
 }
 
+.font-Manrope {
+  font-family: Manrope, sans-serif;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -565,4 +569,9 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.text-neon_green {
+  --tw-text-opacity: 1;
+  color: hsl(150 100% 66% / var(--tw-text-opacity));
 }
