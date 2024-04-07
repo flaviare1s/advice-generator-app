@@ -1,0 +1,7 @@
+#adviceButton {
+    transition: 3s;
+}
+
+#adviceButton:hover {
+    filter: drop-shadow(0 0 15px hsl(150, 100%, 66%));
+  }
