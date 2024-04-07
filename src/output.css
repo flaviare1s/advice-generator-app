@@ -554,12 +554,121 @@ video {
   --tw-contain-style:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-\[5px\] {
+  bottom: 5px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-\[95\%\] {
+  width: 95%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-dark_blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(218 23% 16% / var(--tw-bg-opacity));
+}
+
+.bg-dark_grayish_blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(217 19% 24% / var(--tw-bg-opacity));
+}
+
+.bg-neon_green {
+  --tw-bg-opacity: 1;
+  background-color: hsl(150 100% 66% / var(--tw-bg-opacity));
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pb-\[72px\] {
+  padding-bottom: 72px;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .font-Manrope {
   font-family: Manrope, sans-serif;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
 }
 
 .text-xs {
@@ -571,7 +680,75 @@ video {
   font-weight: 700;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-\[-0\.26px\] {
+  letter-spacing: -0.26px;
+}
+
+.tracking-\[3\.46px\] {
+  letter-spacing: 3.46px;
+}
+
+.text-light_cyan {
+  --tw-text-opacity: 1;
+  color: hsl(193 38% 86% / var(--tw-text-opacity));
+}
+
 .text-neon_green {
   --tw-text-opacity: 1;
   color: hsl(150 100% 66% / var(--tw-text-opacity));
+}
+
+@media (min-width: 550px) {
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:w-\[540px\] {
+    width: 540px;
+  }
+
+  .sm\:rounded-\[15px\] {
+    border-radius: 15px;
+  }
+
+  .sm\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .sm\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .sm\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .sm\:text-\[13px\] {
+    font-size: 13px;
+  }
+
+  .sm\:text-\[28px\] {
+    font-size: 28px;
+  }
+
+  .sm\:tracking-\[-0\.3px\] {
+    letter-spacing: -0.3px;
+  }
+
+  .sm\:tracking-\[4\.09px\] {
+    letter-spacing: 4.09px;
+  }
 }

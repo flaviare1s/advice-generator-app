@@ -16,15 +16,26 @@
   <title>Frontend Mentor | Advice generator app</title>
 
 </head>
-<body class="font-Manrope">
+<body class="font-Manrope bg-dark_blue flex flex-col justify-center items-center m-auto h-screen">
 
-  Advice #<!-- Advice ID goes here -->
+  <main class="bg-dark_grayish_blue w-[95%] sm:w-[540px] rounded-[10px] sm:rounded-[15px] px-6 sm:px-12 pt-10 sm:pt-12 tracking-[3.46px] sm:tracking-[4.09px]">
+    <h1 class="uppercase text-neon_green text-center font-extrabold text-[11px] sm:text-[13px] pb-6">Advice <span id="adviceID">#</span></h1>
 
-  "<!-- Advice text goes here -->"
+    <div id="adviceText" class="font-extrabold text-light_cyan text-center text-2xl sm:text-[28px] tracking-[-0.26px] sm:tracking-[-0.3px] pb-6 sm:pb-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+
+    <div class="relative">
+      <img class="sm:hidden pb-16 w-full m-auto" src="../images/pattern-divider-mobile.svg" alt="Pattern Divider">
+      <img class="hidden sm:block w-full m-auto pb-[72px]" src="../images/pattern-divider-desktop.svg" alt="Pattern Divider">
+    </div>
+
+    <div class="flex flex-col justify-center items-center w-16 h-16 bg-neon_green rounded-full absolute bottom-[5px]">
+      <img src="../images/icon-dice.svg" alt="Icon Dice">
+    </div>
+  </main>
   
-  <div class="text-xs text-center">
+  <footer class="text-xs text-center">
     Challenge by <a class="font-bold text-neon_green" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a class="font-bold text-neon_green" href="https://github.com/flaviare1s/">Flávia Reis</a>.
-  </div>
+  </footer>
 </body>
 </html>

@@ -13,6 +13,9 @@ module.exports = {
         dark_grayish_blue: 'hsl(217, 19%, 24%)',
         dark_blue: 'hsl(218, 23%, 16%)',
       },
+      screens: {
+        sm: '550px'
+      },
     },
   },
   plugins: [],
