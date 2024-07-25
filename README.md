@@ -1,6 +1,8 @@
 # Advice Generator App
 
-## Bem-vindo! 👋
+![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
+
+## Bem-vindo(a)! 👋
 
 Obrigado por conferir este desafio de front-end. Este projeto é parte do desafio do Frontend Mentor e foi desenvolvido para aprimorar minhas habilidades em HTML, Tailwind CSS, JavaScript e consumo de API.
 
